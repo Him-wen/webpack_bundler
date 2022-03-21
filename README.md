@@ -10,8 +10,11 @@ npm babel插件
 ### 文件
 使用webpack会涉及三个需要打包的js文件（`entry.js`、`message.js`、`name.js`）
 
-## 流程图
+## 模块分析流程
 ![image.png](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a52b7f076cc242e39d33011a878fb9fd~tplv-k3u1fbpfcp-watermark.image?)
+
+## 依赖图谱流程
+![image.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f8dcf3b2b732439bb440a0ee5e06e8fc~tplv-k3u1fbpfcp-watermark.image?)
 
 ### 分析依赖
 
