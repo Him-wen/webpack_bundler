@@ -5,7 +5,6 @@ Create a simple webpack bundler
 
 ## 实现
 npm babel插件
-
 `npm install @babel/core @babel/parser @babel/traverse @babel/preset-env --save-dev`
 ### 文件
 使用webpack会涉及三个需要打包的js文件（`entry.js`、`message.js`、`name.js`）
