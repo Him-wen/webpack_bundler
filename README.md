@@ -10,6 +10,9 @@ npm babel插件
 ### 文件
 使用webpack会涉及三个需要打包的js文件（`entry.js`、`message.js`、`name.js`）
 
+## 流程图
+![image.png](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a52b7f076cc242e39d33011a878fb9fd~tplv-k3u1fbpfcp-watermark.image?)
+
 ### 分析依赖
 
 webpack分析依赖是从一个入口文件开始分析的，当我们把一个入口的文件路径传入，webpack就会通过这个文件的路径读取文件的信息（读取到的本质其实是字符串），然后把读取到的信息转成AST（抽象语法树），简单点来说呢，就是把一个js文件里面的内容存到某种数据结构里，里面包括了各种信息，**其中就有当前模块依赖了哪些模块**。我们暂时把通过传**文件路径**能返回文件信息的这个函数叫 `createAsset` 。
