@@ -1,0 +1,29 @@
+{
+  "name": "webpack_bundler",
+  "version": "1.0.0",
+  "description": "Create a simple webpack bundler",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/highlight": "^7.0.0",
+    "@babel/parser": "^7.1.3",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/traverse": "^7.1.4"
+  },
+  "dependencies": {
+    "js-beautify": "^1.6.14"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Him-wen/webpack_bundler.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Him-wen/webpack_bundler/issues"
+  },
+  "homepage": "https://github.com/Him-wen/webpack_bundler#readme"
+}
